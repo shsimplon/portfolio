@@ -2,7 +2,7 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react';
 import {personal, languages, skills} from '../utils/profile';
-import image from '../photocv.jpg'
+import image from '../imgcv.jpg'
 
 
   const Profile = () => {
