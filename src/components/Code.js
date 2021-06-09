@@ -22,7 +22,7 @@ const Code = () => {
             <img src={user.avatar_url} alt="Avatar" style={{width:'100%'}} />
             <div class="container">
                 <h4><b>{user.login}</b></h4>
-                <p>{user.html_url}</p> 
+                <p className='urlGithub'>{user.html_url}</p> 
                 <p>{user.bio}</p>
                 <p>Nombre de dépots sur Github: {user.public_repos}</p>
                 <p>Followers sur Github: {user.followers}</p> 
